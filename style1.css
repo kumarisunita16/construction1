@@ -1,0 +1,63 @@
+.amiddle{
+    background-color: rgb(121, 182, 238);
+    /* background: linear-gradient(rgb(121, 182, 238),rgb(149, 69, 165)); */
+    /* background-color: rgb(149, 69, 165); */
+    
+
+    /* height: 100vh; */
+    
+}
+.amiddle .leader{
+    height: 400px;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:1.66% ;
+
+}
+.amiddle .team{
+    width: 60%;
+}
+.amiddle .leader img{
+    width: 100%;
+    height: 400px;
+    
+    /* margin: 1.66%; */
+    /* float:left; */
+}
+.amiddle .tmlead{
+    display: flex;
+    flex-direction: row;
+}
+/* .amiddle .team div{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+} */
+
+ .amiddle  .team div{
+    width: 30%;
+    height: 250px;
+    
+    margin: 1.66%;
+    float: left;
+}
+.amiddle .team img{
+    width:100%;
+    height: 240px;
+}
+ .amiddle img:hover{
+    opacity: 1;
+    box-shadow: 10px 5px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+ .amiddle h1{
+    margin-left: 1.66%;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 5px solid red ;
+    width: 60%;
+    padding-top: 20px;
+    font-size: 40px;
+}

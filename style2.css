@@ -1,0 +1,23 @@
+ .pmiddle img{
+    width: 30%;
+    height: 250px;
+    
+    margin: 1.66%;
+    float: left;
+}
+.pmiddle img:hover{
+    opacity: 1;
+    box-shadow: 10px 5px 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pmiddle .pr{
+    text-align: center;
+}
+ .pmiddle .pr h1{
+    margin-left: 1.66%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+}
