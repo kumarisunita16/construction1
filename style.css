@@ -14,6 +14,10 @@ body{
 } */
 .header{
     background-color: white;
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    flex-direction: row;
 }
 .header .logo{
     font-size: 30px;
@@ -27,8 +31,14 @@ body{
     font-size: 30px;
 }
 .header .menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: baseline; */
     font-size: 20px;
     margin-left: 250px;
+    margin-right: 300px;
     
 }
 .header .menu a:hover{
