@@ -10,10 +10,11 @@
 .amiddle .tmlead {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 .amiddle .leader{
     height: 400px;
-    width:80%;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +24,7 @@
 }
 .amiddle .tmlead .content{
     height: 400px;
-    width: 100%;
+    width: 50%;
     margin: 40px;
 }
 .amiddle .team{
